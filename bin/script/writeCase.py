@@ -33,7 +33,7 @@ def write_case(_path):
             with open(new_case, 'w') as f:
                 for line in source:
                     if 'PATH = setupMain.PATH' in line:
-                        line = line.replace("/aff/pages/offer", "/aff/pages/%s" % yml_path)
+                        line = line.replace("/aff/page/offer", "/aff/page/%s" % yml_path)
                         f.write(line)
                         n = n+1
                     elif 'case_dict = ini_case' in line:

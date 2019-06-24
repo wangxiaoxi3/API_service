@@ -53,7 +53,7 @@ def write_case_yml(har_path):
                     print(e)
 
                 project_path = str(os.path.abspath('.').split('bin')[0])
-                case_path = project_path + '/aff/pages/' + path.split("/")[-2]
+                case_path = project_path + '/aff/page/' + path.split("/")[-2]
                 mk_dir(case_path)
 
                 response_code = har_ct["response"]["status"]

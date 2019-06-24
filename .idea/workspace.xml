@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b119f1b3-d397-4b58-9b4d-0e6db3b9d2ea" name="Default" comment="" />
+    <list default="true" id="b119f1b3-d397-4b58-9b4d-0e6db3b9d2ea" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aff/pages/__init__.py" afterPath="$PROJECT_DIR$/aff/page/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aff/pages/blogpost/reco.json" afterPath="$PROJECT_DIR$/aff/page/blogpost/reco.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aff/pages/blogpost/reco.yml" afterPath="$PROJECT_DIR$/aff/page/blogpost/reco.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aff/pages/blogpost/result_reco.json" afterPath="$PROJECT_DIR$/aff/page/blogpost/result_reco.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logs/2019-06-24.log" afterPath="$PROJECT_DIR$/log/2019-06-24.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logs/2019-06-24_error.log" afterPath="$PROJECT_DIR$/log/2019-06-24_error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aff/testcase/Template.py" afterPath="$PROJECT_DIR$/aff/testcase/Template.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/script/logs.py" afterPath="$PROJECT_DIR$/bin/script/logs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/script/writeCase.py" afterPath="$PROJECT_DIR$/bin/script/writeCase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/script/writeCaseYml.py" afterPath="$PROJECT_DIR$/bin/script/writeCaseYml.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/unit/apiMethod.py" afterPath="$PROJECT_DIR$/bin/unit/apiMethod.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/unit/apiSend.py" afterPath="$PROJECT_DIR$/bin/unit/apiSend.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +58,18 @@
     <SUITE FILE_PATH="coverage/Aff_service$random_string.coverage" NAME="random_string Coverage Results" MODIFIED="1558926396284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/randoms" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="setupMain.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setupMain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,10 +89,12 @@
       <dir>$PROJECT_DIR$/aff/data</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bin/script/readHar.py" />
         <option value="$PROJECT_DIR$/aff/testcase/test_login.py" />
         <option value="$PROJECT_DIR$/aff/testcase/test_offer_access_unapproved.py" />
         <option value="$PROJECT_DIR$/bin/unit/initializeCookie.py" />
@@ -82,7 +109,6 @@
         <option value="$PROJECT_DIR$/logs/2019-06-12_debug.log" />
         <option value="$PROJECT_DIR$/logs/2019-06-12.log" />
         <option value="$PROJECT_DIR$/logs/2019-06-12_error.log" />
-        <option value="$PROJECT_DIR$/bin/script/logs.py" />
         <option value="$PROJECT_DIR$/aff/testcase/advertiser/test_manage.py" />
         <option value="$PROJECT_DIR$/aff/testcase/advertiser/test_affiliate_access_blocked.py" />
         <option value="$PROJECT_DIR$/aff/testcase/offer/test_affiliate_access_blocked.py" />
@@ -102,13 +128,10 @@
         <option value="$PROJECT_DIR$/aff/testcase/advertiser/test_doEditSave.py" />
         <option value="$PROJECT_DIR$/aff/testcase/test.py" />
         <option value="$PROJECT_DIR$/aff/testcase/employees/test_user_information.py" />
-        <option value="$PROJECT_DIR$/bin/unit/apiMethod.py" />
         <option value="$PROJECT_DIR$/aff/pages/offer_files/postCreateFlies.yml" />
         <option value="$PROJECT_DIR$/aff/testcase/conftest.py" />
-        <option value="$PROJECT_DIR$/aff/testcase/Template.py" />
         <option value="$PROJECT_DIR$/bin/config/confRead.py" />
         <option value="$PROJECT_DIR$/bin/config/confManage.py" />
-        <option value="$PROJECT_DIR$/bin/unit/apiSend.py" />
         <option value="$PROJECT_DIR$/bin/unit/readParameter.py" />
         <option value="$PROJECT_DIR$/aff/testcase/blogpost/test_reco.py" />
         <option value="$PROJECT_DIR$/bin/config/config.ini" />
@@ -116,8 +139,13 @@
         <option value="$PROJECT_DIR$/aff/pages/blogpost/reco.yml" />
         <option value="$PROJECT_DIR$/bin/unit/checkResult.py" />
         <option value="$PROJECT_DIR$/setupMain.py" />
-        <option value="$PROJECT_DIR$/bin/script/writeCase.py" />
+        <option value="$PROJECT_DIR$/bin/script/logs.py" />
         <option value="$PROJECT_DIR$/bin/script/writeCaseYml.py" />
+        <option value="$PROJECT_DIR$/bin/script/writeCase.py" />
+        <option value="$PROJECT_DIR$/aff/testcase/Template.py" />
+        <option value="$PROJECT_DIR$/aff/page/blogpost/reco.yml" />
+        <option value="$PROJECT_DIR$/bin/unit/apiMethod.py" />
+        <option value="$PROJECT_DIR$/bin/unit/apiSend.py" />
       </list>
     </option>
   </component>
@@ -135,7 +163,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="111" />
+    <option name="x" value="70" />
     <option name="y" value="23" />
     <option name="width" value="1309" />
     <option name="height" value="861" />
@@ -156,6 +184,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -171,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,7 +215,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,13 +407,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="111" y="23" width="1309" height="861" extended-state="0" />
+    <frame x="70" y="23" width="1309" height="861" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26361483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26756117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3393086" sideWeight="0.50259453" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33028722" sideWeight="0.4974055" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -453,19 +485,11 @@
     <entry file="file://$PROJECT_DIR$/aff/testcase/affiliate/test_get_pixel_list.py" />
     <entry file="file://$PROJECT_DIR$/aff/testcase/advertiser/test_doEditSave_adv.py" />
     <entry file="file://$PROJECT_DIR$/aff/pages/login/login.yml" />
-    <entry file="file://$PROJECT_DIR$/aff/testcase/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/aff/testcase/test_login.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/_pytest/skipping.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -473,7 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -481,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,11 +515,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aff/pages/blogpost/result_reco.json">
+    <entry file="file://$PROJECT_DIR$/aff/page/blogpost/result_reco.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -505,41 +526,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="505" column="0" lean-forward="false" selection-start-line="505" selection-start-column="0" selection-end-line="505" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aff/testcase/blogpost/test_reco.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="e#91#104#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aff/pages/blogpost/reco.json">
+    <entry file="file://$PROJECT_DIR$/aff/page/blogpost/reco.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aff/pages/blogpost/reco.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aff/testcase/Template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -547,9 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="e#481#494#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,9 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-452">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#91#128#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -575,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,39 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/script/logs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/script/writeCaseYml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/script/writeCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/unit/apiMethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1532">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,30 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/unit/apiSend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/unit/apiSendCheck.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/unit/checkResult.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="95" column="10" lean-forward="false" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -671,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-167">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-827">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -719,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,41 +657,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setupMain.py">
+    <entry file="file://$PROJECT_DIR$/logs/2019-06-23.log" />
+    <entry file="file://$PROJECT_DIR$/logs/2019-06-23_error.log" />
+    <entry file="file://$PROJECT_DIR$/log/2019-06-24_error.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2019-06-24.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aff/testcase/Template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aff/testcase/blogpost/test_reco.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="e#91#100#0" expanded="true" />
+            <element signature="e#91#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/2019-06-23.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/bin/script/writeCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="59" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/2019-06-23_error.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/bin/script/writeCaseYml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="138" column="49" lean-forward="true" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/2019-06-24_error.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/bin/unit/checkResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/2019-06-24.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/bin/unit/apiSendCheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/unit/apiMethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aff/page/blogpost/reco.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/unit/apiSend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1189">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/script/logs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setupMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

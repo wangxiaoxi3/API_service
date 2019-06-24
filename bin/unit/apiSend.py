@@ -2,7 +2,6 @@
 # @Time    : 2019/05
 # @Author  : XiaoXi
 # @PROJECT : Aff_service
-# @File    : send_resquest.py
 
 import logging
 import allure

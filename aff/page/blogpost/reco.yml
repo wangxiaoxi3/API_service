@@ -36,7 +36,7 @@ test_case:
       # 超时时间
       timeout: 20
 
-      # 校验列表  list or dict（不校验时 datebase， expected_code, expected_request 均可不填）
+      # 校验列表  list or dict（不校验时 expected_code, expected_request 均可不填）
       check:
         expected_request: result_reco.json
         check_type: only_check_status

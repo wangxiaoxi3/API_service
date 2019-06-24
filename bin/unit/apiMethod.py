@@ -2,7 +2,6 @@
 # @Time    : 2019/05
 # @Author  : XiaoXi
 # @PROJECT : Aff_service
-# @File    : https.py
 
 import json
 import os

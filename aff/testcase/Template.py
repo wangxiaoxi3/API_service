@@ -11,7 +11,7 @@ from bin.unit.initializeCase import ini_case
 from bin.unit.initializePremise import ini_request
 from bin.unit.apiSendCheck import api_send_check
 
-PATH = setupMain.PATH + "/aff/pages/offer"
+PATH = setupMain.PATH + "/aff/page/offer"
 
 case_dict = ini_case(PATH, "Template")
 
