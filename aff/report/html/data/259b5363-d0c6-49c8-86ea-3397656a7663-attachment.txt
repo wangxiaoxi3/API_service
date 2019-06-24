@@ -1,0 +1,1 @@
+{'data': ['Celcom', 'Digi', 'Maxis', 'Tune Talk', 'Wifi or not identified', 'XOX', 'u_mobile'], 'msg': 'Success', 'res': 0}

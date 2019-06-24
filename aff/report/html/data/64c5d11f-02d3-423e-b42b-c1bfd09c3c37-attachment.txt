@@ -1,0 +1,1 @@
+{'affiliate_id': '1446', 'offer_id': '93006'}

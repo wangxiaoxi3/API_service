@@ -1,0 +1,1 @@
+{'is_all_devices_and_browser': 1, 'msg': 'Success', 'data': [], 'res': 0}

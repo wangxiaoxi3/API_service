@@ -1,0 +1,1 @@
+{'msg': 'Sub affiliate already existed!', 'res': -1}

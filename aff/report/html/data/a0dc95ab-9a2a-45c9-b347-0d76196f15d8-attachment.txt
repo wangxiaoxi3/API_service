@@ -1,0 +1,1 @@
+get_offer_affiliate_setting_by_offer_and_affiliate
