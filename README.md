@@ -2,10 +2,16 @@
 #### 简介：
 基于Pytest+request+Allure的接口自动化开源框架2（升级版）
 
+<<<<<<< HEAD
 
 ----
 #### 模块类的设计:
 备注：Charles导出接口应选择文件类型为`JSON Session File(.chlsj)`
+=======
+----
+#### 模块类的设计:
+备注：Charles导出接口应选择文件类型为`JSON Session File(.chlsj)`\
+>>>>>>> 4d80c80ee8181f68742c19878bc68e045e1b14bd
 重要模块介绍：
 >1、writeCase.py ：自动读取新的Charles文件，并自动生成测试用例 \
  2、apiMethod.py：封装request方法，可以支持多协议扩展（get\post\put）\
@@ -16,6 +22,9 @@
 
 ----
 
+<<<<<<< HEAD
 
 ##
+=======
+>>>>>>> 4d80c80ee8181f68742c19878bc68e045e1b14bd
 详细介绍见原文:https://www.jianshu.com/p/6f5bfc1182ae
