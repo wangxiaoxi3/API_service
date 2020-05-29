@@ -1,1 +1,0 @@
-{'affiliate_id_list_str': '1521,1520', 'offer_id_list_str': '1'}

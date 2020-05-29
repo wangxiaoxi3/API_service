@@ -2,31 +2,29 @@
 # @Time    : 2019/05
 # @Author  : XiaoXi
 # @PROJECT : Aff_service
+# @File    : setup.py
 
 import os
-import subprocess
+
+
 import pytest
-
+from bin.config.confManage import dir_manage
 from bin.script.logs import LogConfig
-from bin.script.writeCase import write_case
+project_path = os.path.split(os.path.realpath(__file__))[0]
 
-PATH = os.path.split(os.path.realpath(__file__))[0]
-xml_report_path = PATH + "/aff/report/xml"
-html_report_path = PATH + "/aff/report/html"
-har_path = PATH + "/aff/data"
-
-
-def invoke(md):
-    output, errors = subprocess.Popen(md, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
-    o = output.decode("utf-8")
-    return o
+if ':' in project_path:
+    project_path = project_path.replace('\\', '/')
+else:
+    pass
 
 
 if __name__ == '__main__':
-    LogConfig(PATH)
-    write_case(har_path)
-    args = ['-s', '-q', '--alluredir', xml_report_path]
+    LogConfig(project_path)
+    from bin.script.writeCase import write_case
+    write_case(project_path + dir_manage('${data_dir}$'))
+    args = ['-s', '-q', '--alluredir', project_path + dir_manage('${report_xml_dir}$')]
     pytest.main(args)
-    cmd = 'allure generate %s -o %s' % (xml_report_path, html_report_path)
-    invoke(cmd)
+    cmd = 'allure generate %s -o %s -c' % (project_path + dir_manage('${report_xml_dir}$'),
+                                           project_path + dir_manage('${report_html_dir}$'))
+    os.system(cmd)
 

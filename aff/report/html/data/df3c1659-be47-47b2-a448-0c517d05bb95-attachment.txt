@@ -1,1 +1,0 @@
-http://frontend-pre.aflt.kiwisns.com/admin/operation/batch_operate_recommend_manual_offer_to_affiliate

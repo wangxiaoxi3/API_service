@@ -1,1 +1,0 @@
-batch_operate_recommend_manual_offer_to_affiliate

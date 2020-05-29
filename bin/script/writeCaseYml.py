@@ -10,6 +10,8 @@ import urllib.parse
 import logging
 from ruamel import yaml
 from bin.script.mkDir import mk_dir
+from setupMain import project_path
+from bin.config.confManage import dir_manage
 
 
 def write_case_yml(har_path):
@@ -37,29 +39,32 @@ def write_case_yml(har_path):
                 parameter_type = har_ct["request"]["mimeType"]
                 parameter = dict()
                 try:
-                    if method == 'POST':
+                    if method in 'POST':
+                        parameter_list = urllib.parse.unquote(har_ct["request"]["body"]["text"])
+                    elif method in 'PUT':
+                        parameter_list = har_ct["request"]["body"]["text"]
+                    elif method in 'DELETE':
                         parameter_list = urllib.parse.unquote(har_ct["request"]["body"]["text"])
                     else:
                         parameter_list = har_ct["query"]
 
-                    if '&' in parameter_list:
+                    if "&" in parameter_list:
 
                         for key in parameter_list.split("&"):
                             val = key.split("=")
                             parameter[val[0]] = val[1]
                     else:
-                        pass
+                        parameter = json.loads(parameter_list)
                 except Exception as e:
-                    print(e)
+                    logging.error("未找到parameter: %s" % e)
+                    raise e
 
-                project_path = str(os.path.abspath('.').split('bin')[0])
-                case_path = project_path + '/aff/page/' + path.split("/")[-2]
+                case_path = project_path + dir_manage('${page_dir}$') + path.split("/")[-2]
                 mk_dir(case_path)
 
                 response_code = har_ct["response"]["status"]
-                response_boby = har_ct["response"]["body"]["text"]
+                response_body = har_ct["response"]["body"]["text"]
                 test_info = dict()
-                # test_info = {'id': info_id, 'address': path, 'host': '${host}$', 'title': path.split("/")[-2]}
                 test_info["id"] = info_id
                 test_info["title"] = path.split("/")[-2]
                 test_info["host"] = '${host}$'
@@ -67,21 +72,19 @@ def write_case_yml(har_path):
 
                 # 定义checkout
                 check = dict()
-                # check = {'check_type': 'json', 'expected_code': response_code}
                 check["check_type"] = 'json'
                 check["expected_code"] = response_code
-                expected_request = json.loads(response_boby)
+                expected_request = json.loads(response_body)
 
                 result_file = 'result_' + title + '.json'
                 # result参数大于4时，写入result.json中
-                if len(expected_request) >= 4:
+                if len(expected_request) >= 2:
                     if result_file in os.listdir(case_path):
                         pass
                     else:
                         result_list = []
                         result_dicts = dict()
-                        with open(case_path + '/' + result_file, "w") as ff:
-                            # expected_request = "'result_'+ title + '.json'"
+                        with open(case_path + '/' + result_file, "w", encoding='utf-8') as ff:
                             result_dicts["test_name"] = title
                             result_dicts["json"] = expected_request
                             result_list.append(result_dicts)
@@ -93,6 +96,9 @@ def write_case_yml(har_path):
                     check["expected_request"] = expected_request
 
                 param_file = case_path + '/' + title + '.json'
+                test_case_list = []
+                test_case = dict()
+                test_case_list.append(test_case)
                 # para参数大于等于4时，参数文件单独写入json中
                 if len(parameter) >= 4:
                     if title + '.json' in os.listdir(case_path):
@@ -100,14 +106,13 @@ def write_case_yml(har_path):
                     else:
                         new_dicts = dict()
                         new_list = []
-                        with open(param_file, "w") as fs:
+                        with open(param_file, "w", encoding='utf-8') as fs:
                             new_dicts["test_name"] = title
                             new_dicts["parameter"] = parameter
                             new_list.append(new_dicts)
 
                             json.dump(new_list, fs, ensure_ascii=False, indent=4)
 
-                    test_case = dict()
                     test_case["test_name"] = title
                     test_case["info"] = title
                     test_case["http_type"] = scheme
@@ -123,7 +128,6 @@ def write_case_yml(har_path):
                     test_case["relevance"] = None
 
                 else:
-                    test_case = dict()
                     test_case["test_name"] = title
                     test_case["info"] = title
                     test_case["http_type"] = scheme
@@ -140,7 +144,7 @@ def write_case_yml(har_path):
 
                 case_list["test_info"] = test_info
                 case_list["premise"] = None
-                case_list["test_case"] = test_case
+                case_list["test_case"] = test_case_list
 
                 case_file = case_path + '/' + title + '.yml'
                 if title + '.yml' in os.listdir(case_path):
@@ -154,5 +158,5 @@ def write_case_yml(har_path):
 
 
 if __name__ == '__main__':
-    har = '/Users/workpace/Aff_service/aff/data'
+    har = '/Users/wangjuan/workpace/api_service/crm/data'
     s = write_case_yml(har)

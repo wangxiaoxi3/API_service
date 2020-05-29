@@ -1,1 +1,0 @@
-{'device_type': '4', 'carrier_target_json_list': '[{"country":"Malaysia","carriers":[]},{"country":"Afghanistan","carriers":[]}]', 'gid_idfa_needs': '0', 'is_schedule': '0', 'offer_id': '93006', 'connect_type': '3', 'group_id_str': '0', 'geo_target_json_list': '[{"country":"Malaysia","regions":[]},{"country":"Afghanistan","regions":[]}]', 'enforce_geo_targeting': '0'}

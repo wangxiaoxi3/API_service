@@ -1,1 +1,0 @@
-{'page_count': '20', 'offer_id': '93006', 'page_no': '1', 'filter_name': ''}

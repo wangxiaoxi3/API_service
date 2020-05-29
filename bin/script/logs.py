@@ -20,6 +20,7 @@ class LogConfig:
         """
 
         runtime = time.strftime('%Y-%m-%d', time.localtime(time.time()))
+
         mk_dir(path + "/log")
         logfile = path + "/log/" + runtime + '.log'
         logfile_err = path + "/log/" + runtime + '_error.log'
@@ -52,4 +53,3 @@ class LogConfig:
         logger.addHandler(fh)
         logger.addHandler(fh_err)
         logger.addHandler(ch)
-

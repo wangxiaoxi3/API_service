@@ -1,1 +1,0 @@
-{'email': 'wangjuan@user.com', 'password': '', 'auth': 'admin'}

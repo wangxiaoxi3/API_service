@@ -5,7 +5,6 @@
 # @File    : ini_case.py
 
 import yaml
-import json
 
 
 def ini_case(_path, case_file):
@@ -22,4 +21,3 @@ def ini_case(_path, case_file):
         with open(_path + '/' + case_file + '.yaml', 'r', encoding="utf-8") as f:
             project_dict = yaml.load(f)
     return project_dict
-

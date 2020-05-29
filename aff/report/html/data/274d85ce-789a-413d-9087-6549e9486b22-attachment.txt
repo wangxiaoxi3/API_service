@@ -1,1 +1,0 @@
-{'is_add_operation': '1', 'offer_ids': '123', 'affiliate_ids': '1542'}

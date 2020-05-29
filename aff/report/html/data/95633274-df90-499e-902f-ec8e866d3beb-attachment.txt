@@ -1,1 +1,0 @@
-http://frontend-pre.aflt.kiwisns.com/admin/offer/get_offer_cap_schedule_change_info

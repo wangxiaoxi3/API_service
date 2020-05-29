@@ -1,1 +1,0 @@
-http://frontend-pre.aflt.kiwisns.com/admin/snapshot/get_approve_deny_tasks

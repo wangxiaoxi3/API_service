@@ -1,1 +1,0 @@
-{'email': 'wangjuan@user.com', 'cell_phone': '', 'office_phone': '', 'photo_url': '', 'isAnyMessageShown': 'false', 'first_name': 'wang', 'title': '', 'am_id': '80', 'chat': '22', 'isValid': 'true', 'last_name': 's'}

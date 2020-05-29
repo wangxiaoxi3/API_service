@@ -6,8 +6,7 @@
 
 
 import re
-
-from bin.unit.initializeCase import ini_case
+# from bin.unit.initializeCase import ini_case
 
 
 def replace(param, relevance=None):
@@ -26,11 +25,11 @@ def replace(param, relevance=None):
                     param[key][k] = replace(i, relevance)
             else:
                 try:
-                    relevance_list = re.findall("\${(.*?)}\$", value)
+                    relevance_list = re.findall(r"\${(.*?)}\$", value)
 
                     relevance_index = 0
                     for n in relevance_list:
-                        pattern = re.compile('\${' + n + '}\$')
+                        pattern = re.compile(r'\${' + n + r'}\$')
                         n = n.lower()
                         try:
                             if isinstance(relevance[n], list):
@@ -57,10 +56,10 @@ def replace(param, relevance=None):
             param[k] = replace(i, relevance)
     else:
         try:
-            relevance_list = re.findall("\${(.*?)}\$", param)
+            relevance_list = re.findall(r"\${(.*?)}\$", param)
             relevance_index = 0
             for n in relevance_list:
-                pattern = re.compile('\${' + n + '}\$')
+                pattern = re.compile(r'\${' + n + r'}\$')
                 try:
                     if isinstance(relevance[n], list):
                         try:
@@ -103,5 +102,3 @@ def get_value(data, value):
                 __relevance = get_value(key, value)
                 break
     return __relevance
-
-

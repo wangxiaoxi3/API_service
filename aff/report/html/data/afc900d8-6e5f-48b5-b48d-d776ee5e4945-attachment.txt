@@ -1,1 +1,0 @@
-vta_offer_remove_blacklist

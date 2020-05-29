@@ -1,1 +1,0 @@
-{'affiliate_id': '1446', 'post_back_url': 'http%3A%2F%2Fwww.baidu.com%2F%3Fpayout%3D%7Bpayout%7D', 'status': '1', 'isAnyMessageShown': 'false', 'offer_id': '93006', 'isValid': 'true', 'text_type': '1'}

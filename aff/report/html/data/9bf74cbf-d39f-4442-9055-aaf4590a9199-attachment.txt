@@ -1,8 +1,0 @@
-apiSend.py                  26 INFO     ====================================================================================================
-apiSend.py                  46 INFO     请求接口：pause_offer_error
-apiSend.py                  47 INFO     请求地址：http://frontend-pre.aflt.kiwisns.com/admin/offer/postBatchModifyFlies
-apiSend.py                  48 INFO     请求头: {'X-Requested-With': 'XMLHttpRequest', 'Cookie': 'PPY_AFFSESSID1=s%3A49114Fi9UoZMEonv0g7FGJV7.YR2pVhnH7bNdeXhGoA4t4klYz9FiZ7JO3zXG28JndwE'}
-apiSend.py                  49 INFO     请求参数: {'option': 'pause', 'modify_offer_type': 'no_limit', 'Filedata': '/Users/wangjuan/workpace/Aff_service/aff/resource/offer_pause_error.xlsx', 'handle': 'status'}
-apiSend.py                  59 INFO     请求方法: POST
-apiSend.py                 131 INFO     请求接口结果：
- (200, {'msg': 'Success', 'data': [{'old_status': 'active', 'new_status': 'paused', 'effective_date(UTC+0)': '2019-04-23 07:00:00', 'wrong_list': ['effective_date(UTC+0)'], 'wrong_info': "The schedule data can't be eariler than now.", 'offer_id': 360}, {'old_status': '', 'new_status': 'paused', 'effective_date(UTC+0)': '2019-04-23 07:00:00', 'wrong_list': ['offer_id', 'effective_date(UTC+0)'], 'wrong_info': "Please check your offer ID. It is not int or not exist! The schedule data can't be eariler than now.", 'offer_id': 93226339}], 'res': 0})

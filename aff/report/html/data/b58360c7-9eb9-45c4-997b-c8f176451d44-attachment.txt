@@ -1,1 +1,0 @@
-{'res': -9999, 'msg': 'You must login first.'}

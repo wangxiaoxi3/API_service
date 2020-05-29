@@ -1,1 +1,0 @@
-{'Cookie': 'PPY_AFFSESSID1=s%3Ah9EI3gC9xdwOEwt5wFtFNME3.9TYP8%2BBNQHRInGv3Efvbw2P427JITQa93u0QWvL%2BG2c', 'X-Requested-With': 'XMLHttpRequest'}

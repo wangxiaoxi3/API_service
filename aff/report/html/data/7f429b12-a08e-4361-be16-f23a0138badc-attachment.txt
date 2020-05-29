@@ -1,1 +1,0 @@
-initializeRelevance.py      19 INFO     初始化关联文件

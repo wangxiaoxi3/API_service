@@ -1,1 +1,0 @@
-{'city': 'Citys', 'status': '1', 'zip_code': 'Zipcodea', 'isAnyMessageShown': 'false', 'fax': 'Fax', 'country': 'Canada', 'adv_type': '0', 'rate': '0.4000', 'am_id': '49', 'phone': 'Phones', 'addr1': 'Address+1s', 'tax_included': '1', 'addr2': 'Address+22', 'contract_subject': '1', 'advertiser_id': '8', 'company': 'Adv_LL_008', 'isValid': 'true', 'state': 'Barrie'}

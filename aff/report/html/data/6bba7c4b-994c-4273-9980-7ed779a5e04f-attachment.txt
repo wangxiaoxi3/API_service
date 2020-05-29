@@ -1,1 +1,0 @@
-http://frontend-pre.aflt.kiwisns.com/admin/offer/payout_save

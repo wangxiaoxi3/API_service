@@ -1,3 +1,0 @@
-ini_relevance.py            18 INFO     初始化关联文件
-ini_relevance.py            23 DEBUG    读取关联文件内容： ItemsView(<Section: relevance>)
-ini_relevance.py            26 DEBUG    初始化关联的数据：{'password': '123456', 'email': 'wangjuan@user.com', 'auth': 'admin'}

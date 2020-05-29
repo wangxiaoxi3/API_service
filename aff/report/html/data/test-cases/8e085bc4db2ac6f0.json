@@ -1,0 +1,155 @@
+{
+  "uid" : "8e085bc4db2ac6f0",
+  "name" : "TestReco.test_reco[case_data0]",
+  "fullName" : "test_reco.TestReco.test_reco[case_data0]",
+  "historyId" : "b722031e839a2616c8bc6649f46271a5",
+  "time" : {
+    "start" : 1561345325637,
+    "stop" : 1561345325850,
+    "duration" : 213
+  },
+  "description" : "\n\n        :param case_data: 测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param case_data: 测试用例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST请求接口",
+      "time" : {
+        "start" : 1561345325641,
+        "stop" : 1561345325641,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2cf3eccc91f3e3ba",
+        "name" : "请求接口：",
+        "source" : "2cf3eccc91f3e3ba.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "a797eb9d8a8b9559",
+        "name" : "请求地址",
+        "source" : "a797eb9d8a8b9559.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "111c494a2e993791",
+        "name" : "请求头",
+        "source" : "111c494a2e993791.txt",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "3af54adc29158ef7",
+        "name" : "请求参数",
+        "source" : "3af54adc29158ef7.txt",
+        "type" : "text/plain",
+        "size" : 76
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "校验HTTP状态",
+      "time" : {
+        "start" : 1561345325849,
+        "stop" : 1561345325849,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1833071221c1e7e9",
+        "name" : "期望code",
+        "source" : "1833071221c1e7e9.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "2175b118f782934a",
+        "name" : "实际code",
+        "source" : "2175b118f782934a.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "5353e675236b7e2",
+        "name" : "实际data",
+        "source" : "5353e675236b7e2.txt",
+        "type" : "text/plain",
+        "size" : 346
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d69d36c953f02e1a",
+      "name" : "Captured log call",
+      "source" : "d69d36c953f02e1a.txt",
+      "type" : "text/plain",
+      "size" : 1501
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "blogpost"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "xiaoxideMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "reco"
+  }, {
+    "name" : "thread",
+    "value" : "2246-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_reco"
+  }, {
+    "name" : "testClass",
+    "value" : "test_reco"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestReco.test_reco[case_data0]"
+  }, {
+    "name" : "package",
+    "value" : "test_reco"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e085bc4db2ac6f0.json",
+  "parameterValues" : [ ]
+}

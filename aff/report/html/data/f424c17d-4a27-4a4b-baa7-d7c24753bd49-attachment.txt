@@ -1,1 +1,0 @@
-{'photo_url': '', 'title': '', 'chat': '22', 'isValid': 'true', 'cell_phone': '', 'email': 'wangjuan@user.com', 'office_phone': '', 'am_id': '80', 'last_name': 's', 'first_name': 'wang', 'isAnyMessageShown': 'false'}

@@ -1,1 +1,0 @@
-{'msg': 'offer_affiliate_deduct already exist', 'res': -2}

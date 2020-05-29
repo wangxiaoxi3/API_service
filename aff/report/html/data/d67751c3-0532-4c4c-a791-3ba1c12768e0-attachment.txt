@@ -1,1 +1,0 @@
-batch_get_database_offer_id

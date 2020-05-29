@@ -1,1 +1,0 @@
-{'package': 'com.fm.papaya', 'affiliate_id': '1533'}

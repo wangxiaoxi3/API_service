@@ -1,1 +1,0 @@
-{'advertiser_id': '8', 'affiliates_id_str': '794'}

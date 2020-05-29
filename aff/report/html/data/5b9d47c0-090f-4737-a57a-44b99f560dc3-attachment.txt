@@ -1,1 +1,0 @@
-{'msg': 'Password do not allow null.', 'res': -10003}

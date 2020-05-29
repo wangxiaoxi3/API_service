@@ -1,1 +1,0 @@
-{'Filedata': '/Users/wangjuan/workpace/Aff_service/resource/offer_pause_error.xlsx', 'handle': 'status', 'modify_offer_type': 'no_limit', 'option': 'pause'}

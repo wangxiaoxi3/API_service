@@ -1,0 +1,31 @@
+[ {
+  "uid" : "2ae59eb5ea5a7584",
+  "name" : "TestReco.test_reco[case_data1]",
+  "time" : {
+    "start" : 1561345325853,
+    "stop" : 1561345326048,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e085bc4db2ac6f0",
+  "name" : "TestReco.test_reco[case_data0]",
+  "time" : {
+    "start" : 1561345325637,
+    "stop" : 1561345325850,
+    "duration" : 213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22cb90aac6934db6",
+  "name" : "test_reco[case_data0]",
+  "time" : {
+    "start" : 1590388088209,
+    "stop" : 1590388088472,
+    "duration" : 263
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

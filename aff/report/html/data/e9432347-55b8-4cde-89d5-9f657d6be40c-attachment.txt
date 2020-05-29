@@ -1,9 +1,0 @@
-initializeRelevance.py      19 INFO     初始化关联文件
-apiSend.py                  26 INFO     ====================================================================================================
-apiSend.py                  46 INFO     请求接口：password错误
-apiSend.py                  47 INFO     请求地址：http://frontend-pre.aflt.kiwisns.com/postLogin
-apiSend.py                  48 INFO     请求头: {'X-Requested-With': 'XMLHttpRequest'}
-apiSend.py                  49 INFO     请求参数: {'password': 12, 'email': 'wangjuan@user.com', 'auth': 'admin'}
-apiSend.py                  59 INFO     请求方法: POST
-apiSend.py                 131 INFO     请求接口结果：
- (200, {'res': -10005, 'data': {}, 'msg': 'The password is wrong.'})

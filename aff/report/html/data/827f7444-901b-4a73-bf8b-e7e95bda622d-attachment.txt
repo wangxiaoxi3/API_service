@@ -1,1 +1,0 @@
-http://frontend-pre.aflt.kiwisns.com/xpromt/offer/get_all_offer_info_pages_with_typelist

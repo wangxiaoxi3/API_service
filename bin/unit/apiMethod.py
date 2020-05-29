@@ -2,6 +2,7 @@
 # @Time    : 2019/05
 # @Author  : XiaoXi
 # @PROJECT : Aff_service
+# @File    : https.py
 
 import json
 import os
@@ -9,7 +10,8 @@ import requests
 import random
 import logging
 import simplejson
-import setupMain
+from setupMain import project_path
+from bin.config.confManage import dir_manage
 from requests_toolbelt import MultipartEncoder
 
 
@@ -24,21 +26,27 @@ def post(header, address, request_parameter_type, timeout=8, data=None, files=No
     :param files: 文件路径
     :return:
     """
-    if 'form_data' in request_parameter_type:
+    if 'form-data' in request_parameter_type:
         for i in files:
             value = files[i]
-            if '/' in value:
+            if isinstance(value, int):
+                files[i] = str(value)
+                pass
+            elif '/' in value:
                 file_parm = i
-                files[file_parm] = (os.path.basename(value), open(value, 'rb'))
-        enc = MultipartEncoder(
+                files[file_parm] = (os.path.basename(value), open(value, 'rb'), 'application/octet-stream')
+            else:
+                pass
+        multipart = MultipartEncoder(
             fields=files,
-            boundary='--------------' + str(random.randint(1e28, 1e29 - 1))
+            boundary='-----------------------------' + str(random.randint(1e28, 1e29 - 1))
         )
-        header['Content-Type'] = enc.content_type
+        header['Content-Type'] = multipart.content_type
 
-        response = requests.post(url=address, data=enc, headers=header, timeout=timeout)
+        response = requests.post(url=address, data=multipart, headers=header, timeout=timeout)
     else:
-        response = requests.post(url=address, data=data, headers=header, timeout=timeout, files=files)
+        data = json.dumps(data)
+        response = requests.post(url=address, data=data, headers=header, timeout=timeout)
     try:
         if response.status_code != 200:
             return response.status_code, response.text
@@ -80,7 +88,7 @@ def get(header, address, data, timeout=8):
 
 def put(header, address, request_parameter_type, timeout=8, data=None, files=None):
     """
-    post请求
+    put请求
     :param header: 请求头
     :param address: 请求地址
     :param request_parameter_type: 请求参数格式（form_data,raw）
@@ -90,6 +98,8 @@ def put(header, address, request_parameter_type, timeout=8, data=None, files=Non
     :return:
     """
     if request_parameter_type == 'raw':
+        data = json.dumps(data)
+    elif request_parameter_type == 'application/json':
         data = json.dumps(data)
     response = requests.put(url=address, data=data, headers=header, timeout=timeout, files=files)
     try:
@@ -137,7 +147,7 @@ def save_cookie(header, address, timeout=8, data=None, files=None):
     :param files: 文件路径
     :return:
     """
-    cookie_path = setupMain.PATH + '/aff/data/cookie.txt'
+    cookie_path = project_path + dir_manage('${cookie_dir}$')
     response = requests.post(url=address, data=data, headers=header, timeout=timeout, files=files)
     try:
         cookie = response.cookies.get_dict()

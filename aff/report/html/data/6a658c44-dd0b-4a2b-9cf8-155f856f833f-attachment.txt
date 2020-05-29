@@ -1,8 +1,0 @@
-apiSend.py                  26 INFO     ====================================================================================================
-apiSend.py                  46 INFO     请求接口：get_approve_deny_tasks
-apiSend.py                  47 INFO     请求地址：http://frontend-pre.aflt.kiwisns.com/admin/snapshot/get_approve_deny_tasks
-apiSend.py                  48 INFO     请求头: {'X-Requested-With': 'XMLHttpRequest', 'Cookie': 'PPY_AFFSESSID1=s%3A49114Fi9UoZMEonv0g7FGJV7.YR2pVhnH7bNdeXhGoA4t4klYz9FiZ7JO3zXG28JndwE'}
-apiSend.py                  49 INFO     请求参数: {}
-apiSend.py                  89 INFO     请求方法: GET
-apiSend.py                 131 INFO     请求接口结果：
- (200, {'msg': 'Success', 'data': {'offer_application_pending_numbers': 1, 'affiliate_pending_numbers': 24, 'offer_pending_numbers': 759, 'advertiser_pending_numbers': 2}, 'res': 0})

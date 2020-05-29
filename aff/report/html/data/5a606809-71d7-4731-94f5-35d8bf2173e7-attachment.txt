@@ -1,1 +1,0 @@
-{'msg': 'Success', 'data': [{'wrong_list': [], 'new_status': 'paused', 'wrong_info': '', 'old_status': 'active', 'effective_date(UTC+0)': '2039-04-23 07:00:00', 'offer_id': 360}, {'wrong_list': [], 'new_status': 'paused', 'wrong_info': '', 'old_status': 'active', 'effective_date(UTC+0)': '2039-04-23 07:00:00', 'offer_id': 361}], 'res': 0}

@@ -1,8 +1,0 @@
-apiSend.py                  26 INFO     ====================================================================================================
-apiSend.py                  46 INFO     请求接口：user_information
-apiSend.py                  47 INFO     请求地址：http://frontend-pre.aflt.kiwisns.com/admin/employees/user_information
-apiSend.py                  48 INFO     请求头: {'X-Requested-With': 'XMLHttpRequest', 'Cookie': 'PPY_AFFSESSID1=s%3AU4Hl7LW5XbAvisfeHDOw4Dye.47ASmVvz8X%2FX1R9FCFMV70UGQHmREUR3OzCQVYRQekY'}
-apiSend.py                  49 INFO     请求参数: {'office_phone': '', 'chat': '22', 'last_name': 's', 'title': '', 'email': 'wangjuan@user.com', 'first_name': 'wang', 'photo_url': '', 'cell_phone': '', 'isAnyMessageShown': 'false', 'isValid': 'true', 'am_id': '80'}
-apiSend.py                  59 INFO     请求方法: POST
-apiSend.py                 131 INFO     请求接口结果：
- (200, {'res': 0, 'msg': 'Success'})

@@ -1,1 +1,0 @@
-{'modify_offer_type': 'no_limit', 'Filedata': '/Users/wangjuan/workpace/Aff_service/resource/batch update offer change status.xlsx', 'handle': 'status', 'option': 'pause'}

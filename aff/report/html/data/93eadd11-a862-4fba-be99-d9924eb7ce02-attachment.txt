@@ -1,1 +1,0 @@
-get_all_offer_info_pages_with_typelist

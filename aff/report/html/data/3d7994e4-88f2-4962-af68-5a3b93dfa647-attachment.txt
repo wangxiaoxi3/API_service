@@ -1,1 +1,0 @@
-{'click_session_lifespan': '4', 'redirect_offer_id': '1', 'isAnyMessageShown': 'false', 'session_lifespan_hours': '0', 'offer_id': '93006', 'isValid': 'true'}

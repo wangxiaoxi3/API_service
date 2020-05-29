@@ -45,46 +45,45 @@ def check_result(test_name, case, code, data, _path, relevance=None):
     :param _path: case路径
     :return:
     """
-    # 不校验结果
+
     if case["check_type"] == 'no_check':
         with allure.step("不校验结果"):
             pass
-    # json格式校验
     elif case["check_type"] == 'json':
         expected_request = case["expected_request"]
         if isinstance(case["expected_request"], str):
             expected_request = readExpectedResult.read_json(test_name, expected_request, _path, relevance)
         with allure.step("JSON格式校验"):
-            allure.attach("期望code", str(case["expected_code"]))
-            allure.attach('期望data', str(expected_request))
-            allure.attach("实际code", str(code))
-            allure.attach('实际data', str(data))
+            allure.attach(name="期望code", body=str(case["expected_code"]))
+            allure.attach(name='期望data', body=str(expected_request))
+            allure.attach(name="实际code", body=str(code))
+            allure.attach(name='实际data', body=str(data))
         if int(code) == case["expected_code"]:
             if not data:
                 data = "{}"
             check_json(expected_request, data)
         else:
             raise Exception("http状态码错误！\n %s != %s" % (code, case["expected_code"]))
-    # 只校验状态码
+
     elif case["check_type"] == 'only_check_status':
         with allure.step("校验HTTP状态"):
-            allure.attach("期望code", str(case["expected_code"]))
-            allure.attach("实际code", str(code))
-            allure.attach('实际data', str(data))
+            allure.attach(name="期望code", body=str(case["expected_code"]))
+            allure.attach(name="实际code", body=str(code))
+            allure.attach(name='实际data', body=str(data))
         if int(code) == case["expected_code"]:
             pass
         else:
             raise Exception("http状态码错误！\n %s != %s" % (code, case["expected_code"]))
-    # 完全校验
+
     elif case["check_type"] == 'entirely_check':
         expected_request = case["expected_request"]
         if isinstance(case["expected_request"], str):
             expected_request = readExpectedResult.read_json(test_name, expected_request, _path, relevance)
         with allure.step("完全校验"):
-            allure.attach("期望code", str(case["expected_code"]))
-            allure.attach('期望data', str(expected_request))
-            allure.attach("实际code", str(code))
-            allure.attach('实际data', str(data))
+            allure.attach(name="期望code", body=str(case["expected_code"]))
+            allure.attach(name='期望data', body=str(expected_request))
+            allure.attach(name="实际code", body=str(code))
+            allure.attach(name='实际data', body=str(data))
         if int(code) == case["expected_code"]:
             result = operator.eq(expected_request, data)
             if result:
@@ -93,24 +92,24 @@ def check_result(test_name, case, code, data, _path, relevance=None):
                 raise Exception("完全校验失败！ %s ! = %s" % (expected_request, data))
         else:
             raise Exception("http状态码错误！\n %s != %s" % (code, case["expected_code"]))
-    # 正则校验
+
     elif case["check_type"] == 'Regular_check':
         if int(code) == case["expected_code"]:
             try:
                 result = ""
                 if isinstance(case["expected_request"], list):
                     for i in case[""]:
-                        result = re.findall(i.replace("\"","\""), str(data))
-                        allure.attach('校验完成结果\n',str(result))
+                        result = re.findall(i.replace("\"", "\""), str(data))
+                        allure.attach('校验完成结果\n', str(result))
                 else:
                     result = re.findall(case["expected_request"].replace("\"", "\'"), str(data))
                     with allure.step("正则校验"):
-                        allure.attach("期望code", str(case["expected_code"]))
-                        allure.attach('正则表达式', str(case["expected_request"]).replace("\'", "\""))
-                        allure.attach("实际code", str(code))
-                        allure.attach('实际data', str(data))
-                        allure.attach(case["expected_request"].replace("\"", "\'") + '校验完成结果',
-                                      str(result).replace("\'", "\""))
+                        allure.attach(name="期望code", body=str(case["expected_code"]))
+                        allure.attach(name='正则表达式', body=str(case["expected_request"]).replace("\'", "\""))
+                        allure.attach(name="实际code", body=str(code))
+                        allure.attach(name='实际data', body=str(data))
+                        allure.attach(name=case["expected_request"].replace("\"", "\'") + '校验完成结果',
+                                      body=str(result).replace("\'", "\""))
                 if not result:
                     raise Exception("正则未校验到内容！ %s" % case["expected_request"])
             except KeyError:

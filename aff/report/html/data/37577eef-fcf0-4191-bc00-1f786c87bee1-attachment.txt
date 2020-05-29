@@ -1,1 +1,0 @@
-{'advertiser_id': '126', 'isAnyMessageShown': 'false', 'isValid': 'true', 'affiliates_id_str': '1520'}

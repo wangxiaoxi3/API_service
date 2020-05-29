@@ -1,1 +1,0 @@
-{'data': {'date': '2019-06-12 08:45:44.382905', 'cap_daily_conversions': 0, 'have_sch': False}, 'msg': 'Success', 'res': 0}

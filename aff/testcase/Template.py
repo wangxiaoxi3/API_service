@@ -5,13 +5,13 @@
 
 import allure
 import pytest
-import setupMain
-
+from setupMain import project_path
+from bin.config.confManage import dir_manage
 from bin.unit.initializeCase import ini_case
 from bin.unit.initializePremise import ini_request
 from bin.unit.apiSendCheck import api_send_check
 
-PATH = setupMain.PATH + "/aff/page/offer"
+PATH = project_path + dir_manage('${page_dir}$') + "offer"
 
 case_dict = ini_case(PATH, "Template")
 

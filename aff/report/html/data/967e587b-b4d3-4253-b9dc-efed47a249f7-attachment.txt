@@ -1,1 +1,0 @@
-http://frontend-pre.aflt.kiwisns.com/admin/offer/get_offer_affiliate_setting_by_offer_and_affiliate

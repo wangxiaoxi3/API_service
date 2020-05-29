@@ -1,0 +1,60 @@
+{
+  "824da654dd8f00eb36d6a8dfb22b181a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22cb90aac6934db6",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 415 != 200",
+      "time" : {
+        "start" : 1590388088209,
+        "stop" : 1590388088472,
+        "duration" : 263
+      }
+    } ]
+  },
+  "b722031e839a2616c8bc6649f46271a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e085bc4db2ac6f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561345325637,
+        "stop" : 1561345325850,
+        "duration" : 213
+      }
+    } ]
+  },
+  "130c89f998683def4b96e26723d5ac25" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ae59eb5ea5a7584",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561345325853,
+        "stop" : 1561345326048,
+        "duration" : 195
+      }
+    } ]
+  }
+}

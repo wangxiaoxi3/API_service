@@ -1,0 +1,13 @@
+INFO     root:apiSend.py:26 ====================================================================================================
+DEBUG    root:apiSend.py:30 请求头处理结果：{'X-Requested-With': 'XMLHttpRequest', 'Cookie': ''}
+DEBUG    root:apiSend.py:32 请求参数处理结果：{'itemId': 5044251, 'itemTitle': 'Python面试必须要看的15个问题'}
+DEBUG    root:apiSend.py:43 host处理结果： recomm.cnblogs.com
+INFO     root:apiSend.py:46 请求接口：reco
+INFO     root:apiSend.py:47 请求地址：https://recomm.cnblogs.com/api/v2/recomm/blogpost/reco
+INFO     root:apiSend.py:48 请求头: {'X-Requested-With': 'XMLHttpRequest', 'Cookie': ''}
+INFO     root:apiSend.py:49 请求参数: {'itemId': 5044251, 'itemTitle': 'Python面试必须要看的15个问题'}
+INFO     root:apiSend.py:59 请求方法: POST
+DEBUG    urllib3.connectionpool:connectionpool.py:824 Starting new HTTPS connection (1): recomm.cnblogs.com
+DEBUG    urllib3.connectionpool:connectionpool.py:396 https://recomm.cnblogs.com:443 "POST /api/v2/recomm/blogpost/reco HTTP/1.1" 415 0
+INFO     root:apiSend.py:130 请求接口结果：
+ (415, '')

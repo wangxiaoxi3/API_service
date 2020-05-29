@@ -7,14 +7,14 @@
 import os
 import shutil
 from bin.script.mkDir import mk_dir
-
+from bin.config.confManage import dir_manage
 from bin.script.writeCaseYml import write_case_yml
+from setupMain import project_path
 
 
 def write_case(_path):
     yml_list = write_case_yml(_path)
-    project_path = str(os.path.abspath('.').split('/bin')[0])
-    test_path = project_path+'/aff/testcase/'
+    test_path = project_path+dir_manage('${case_dir}$')
     src = test_path+'Template.py'
 
     for case in yml_list:
@@ -27,13 +27,13 @@ def write_case(_path):
             pass
         else:
             shutil.copyfile(src, new_case)
-            with open(new_case, 'r') as fw:
+            with open(new_case, 'r', encoding='utf-8') as fw:
                 source = fw.readlines()
             n = 0
-            with open(new_case, 'w') as f:
+            with open(new_case, 'w', encoding='utf-8') as f:
                 for line in source:
-                    if 'PATH = setupMain.PATH' in line:
-                        line = line.replace("/aff/page/offer", "/aff/page/%s" % yml_path)
+                    if 'PATH = project_path' in line:
+                        line = line.replace("offer", "%s" % yml_path)
                         f.write(line)
                         n = n+1
                     elif 'case_dict = ini_case' in line:
@@ -61,6 +61,6 @@ def write_case(_path):
 
 
 if __name__ == '__main__':
-    ym_path = '/Users/workpace/Aff_service_git/aff/data'
+    ym_path = 'D:/api_service/crm/data'
     write_case(ym_path)
 

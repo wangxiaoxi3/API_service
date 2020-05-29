@@ -1,8 +1,0 @@
-apiSend.py                  26 INFO     ====================================================================================================
-apiSend.py                  46 INFO     请求接口：pause_offer_schedule
-apiSend.py                  47 INFO     请求地址：http://frontend-pre.aflt.kiwisns.com/admin/offer/postBatchModifyFlies
-apiSend.py                  48 INFO     请求头: {'X-Requested-With': 'XMLHttpRequest', 'Cookie': 'PPY_AFFSESSID1=s%3ATQ5GcUyLcp2fHdMhkz9pL7Y4.hzOpq9sE%2Fe71qSxO4nbdAUTH8gl5EdC4%2FqPN3AjwgeU'}
-apiSend.py                  49 INFO     请求参数: {'handle': 'status', 'Filedata': '/Users/wangjuan/workpace/Aff_service/aff/resource/offer_pause_schedule.xlsx', 'modify_offer_type': 'no_limit', 'option': 'pause'}
-apiSend.py                  59 INFO     请求方法: POST
-apiSend.py                 131 INFO     请求接口结果：
- (200, {'res': 0, 'data': [{'new_status': 'paused', 'wrong_list': [], 'effective_date(UTC+0)': '2039-04-23 07:00:00', 'offer_id': 360, 'wrong_info': '', 'old_status': 'active'}, {'new_status': 'paused', 'wrong_list': [], 'effective_date(UTC+0)': '2039-04-23 07:00:00', 'offer_id': 361, 'wrong_info': '', 'old_status': 'active'}], 'msg': 'Success'})

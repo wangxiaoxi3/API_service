@@ -1,1 +1,0 @@
-{'isValid': 'true', 'affiliate_id': '1533', 'isAnyMessageShown': 'false', 'bd_manager_id': '12', 'am_id': '80'}

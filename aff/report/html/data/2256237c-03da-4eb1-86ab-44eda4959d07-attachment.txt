@@ -1,1 +1,0 @@
-{'res': -10005, 'data': {}, 'msg': 'The password is wrong.'}
