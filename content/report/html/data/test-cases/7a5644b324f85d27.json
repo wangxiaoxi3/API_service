@@ -1,0 +1,162 @@
+{
+  "uid" : "7a5644b324f85d27",
+  "name" : "test_registerfromthirdpart[case_data0]",
+  "fullName" : "crm.testcase.api.test_registerFromThirdPart.TestRegisterfromthirdpart#test_registerfromthirdpart",
+  "historyId" : "5d7c8a95eea77353216e45474fe0ca72",
+  "time" : {
+    "start" : 1594014671665,
+    "stop" : 1594014672562,
+    "duration" : 897
+  },
+  "description" : "\n\n        :param case_data: 测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param case_data: 测试用例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n\n        :param case_data: 测试用例\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST请求接口",
+      "time" : {
+        "start" : 1594014671668,
+        "stop" : 1594014671669,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "903757b7fff46258",
+        "name" : "请求接口",
+        "source" : "903757b7fff46258.attach",
+        "type" : "text/plain",
+        "size" : 21
+      }, {
+        "uid" : "b575e64856904e",
+        "name" : "请求地址",
+        "source" : "b575e64856904e.attach",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "ba67fab1f091dd23",
+        "name" : "请求头",
+        "source" : "ba67fab1f091dd23.attach",
+        "type" : "text/plain",
+        "size" : 139
+      }, {
+        "uid" : "45bd124d04ccae4a",
+        "name" : "请求参数",
+        "source" : "45bd124d04ccae4a.attach",
+        "type" : "text/plain",
+        "size" : 201
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "JSON格式校验",
+      "time" : {
+        "start" : 1594014672561,
+        "stop" : 1594014672562,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "57970c65b56bc98",
+        "name" : "期望code",
+        "source" : "57970c65b56bc98.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "f8c4f43090afb738",
+        "name" : "期望data",
+        "source" : "f8c4f43090afb738.attach",
+        "type" : "text/plain",
+        "size" : 558
+      }, {
+        "uid" : "c65d9577bc4b56af",
+        "name" : "实际code",
+        "source" : "c65d9577bc4b56af.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "8a82ba420cae5564",
+        "name" : "实际data",
+        "source" : "8a82ba420cae5564.attach",
+        "type" : "text/plain",
+        "size" : 556
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e02dc41aa35a35d4",
+      "name" : "log",
+      "source" : "e02dc41aa35a35d4.txt",
+      "type" : "text/plain",
+      "size" : 2135
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "registerFromThirdPart"
+  }, {
+    "name" : "feature",
+    "value" : "api"
+  }, {
+    "name" : "parentSuite",
+    "value" : "crm.testcase.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_registerFromThirdPart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegisterfromthirdpart"
+  }, {
+    "name" : "host",
+    "value" : "xiaoxideMacBook.lan"
+  }, {
+    "name" : "thread",
+    "value" : "26484-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "crm.testcase.api.test_registerFromThirdPart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'file': False, 'check': {'check_type': 'json', 'expected_code': 200, 'expected_request': 'result_registerFromThirdPart.json'}, 'headers': {'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}, 'cookies': False, 'timeout': 60, 'parameter': 'registerFromThirdPart.json', 'parameter_type': 'application/x-www-form-urlencoded', 'test_name': 'registerFromThirdPart', 'info': 'registerFromThirdPart', 'address': '/api/registerFromThirdPart', 'request_type': 'POST', 'relevance': None, 'http_type': 'https'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a5644b324f85d27.json",
+  "parameterValues" : [ "{'file': False, 'check': {'check_type': 'json', 'expected_code': 200, 'expected_request': 'result_registerFromThirdPart.json'}, 'headers': {'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}, 'cookies': False, 'timeout': 60, 'parameter': 'registerFromThirdPart.json', 'parameter_type': 'application/x-www-form-urlencoded', 'test_name': 'registerFromThirdPart', 'info': 'registerFromThirdPart', 'address': '/api/registerFromThirdPart', 'request_type': 'POST', 'relevance': None, 'http_type': 'https'}" ]
+}

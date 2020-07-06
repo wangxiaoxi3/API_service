@@ -1,0 +1,13 @@
+INFO     root:apiSend.py:26 ====================================================================================================
+DEBUG    root:apiSend.py:30 请求头处理结果：{'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}
+DEBUG    root:apiSend.py:32 请求参数处理结果：{'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'loginOptions': 'device_login', 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'timeZone': 'Asia/Shanghai'}
+DEBUG    root:apiSend.py:43 host处理结果： service.papaya.fm
+INFO     root:apiSend.py:46 请求接口：registerFromThirdPart
+INFO     root:apiSend.py:47 请求地址：https://service.papaya.fm/api/registerFromThirdPart
+INFO     root:apiSend.py:48 请求头: {'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}
+INFO     root:apiSend.py:49 请求参数: {'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'loginOptions': 'device_login', 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'timeZone': 'Asia/Shanghai'}
+INFO     root:apiSend.py:59 请求方法: POST
+DEBUG    urllib3.connectionpool:connectionpool.py:937 Starting new HTTPS connection (1): service.papaya.fm:443
+DEBUG    urllib3.connectionpool:connectionpool.py:433 https://service.papaya.fm:443 "POST /api/registerFromThirdPart HTTP/1.1" 200 543
+INFO     root:apiSend.py:130 请求接口结果：
+ (200, {'resultCode': 1, 'userId': '65c0780e-9fef-11ea-86ef-025ae0ee3660', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiNjVjMDc4MGUtOWZlZi0xMWVhLTg2ZWYtMDI1YWUwZWUzNjYwIiwiZXhwIjo0NDk3MDU0Njc1LjA3NDI3NCwiZ3Vlc3QiOmZhbHNlLCJub3ciOjE1OTQwMTQ2NzUuMDc0Mjc0LCJiaW5kX2RldmljZV9pZCI6ImJmMzhiNTQ1LWI3NjYtOGMyYS04ZWM3LWU4MGNjZjIyYTNiNCIsInVzZXJfc2FuZGJveCI6ZmFsc2UsInNjb3BlcyI6WyJ1c2VyIl19.AhmHfguT5sQvq6VRujew-IxtHY82EivoFvtdXQcpSzU', 'refresh_token': '1050f1af51e420f7dbe18ed0ba00272ace392fb60f7fe361', 'isNew': True, 'email': '', 'isEmailVerified': 1})

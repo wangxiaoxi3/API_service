@@ -1,0 +1,10 @@
+INFO     root:apiSend.py:26 ====================================================================================================
+DEBUG    root:apiSend.py:30 请求头处理结果：{'appversion': '3.4.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0'}
+DEBUG    root:apiSend.py:32 请求参数处理结果：{'loginOptions': 'device_login', 'timeZone': 'Asia/Shanghai', 'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4'}
+DEBUG    root:apiSend.py:43 host处理结果： service.papaya.fm
+INFO     root:apiSend.py:46 请求接口：registerFromThirdPart
+INFO     root:apiSend.py:47 请求地址：https://service.papaya.fm/api/registerFromThirdPart
+INFO     root:apiSend.py:48 请求头: {'appversion': '3.4.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0'}
+INFO     root:apiSend.py:49 请求参数: {'loginOptions': 'device_login', 'timeZone': 'Asia/Shanghai', 'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4'}
+INFO     root:apiSend.py:59 请求方法: POST
+DEBUG    urllib3.connectionpool:connectionpool.py:824 Starting new HTTPS connection (1): service.papaya.fm

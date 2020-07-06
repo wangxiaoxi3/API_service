@@ -1,0 +1,14 @@
+[
+    {
+        "json": {
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiNjVjMDc4MGUtOWZlZi0xMWVhLTg2ZWYtMDI1YWUwZWUzNjYwIiwiZXhwIjo0NDkzNjA2MTE0LjE0NTI1NiwiZ3Vlc3QiOmZhbHNlLCJub3ciOjE1OTA1NjYxMTQuMTQ1MjU1NiwiYmluZF9kZXZpY2VfaWQiOiJiZjM4YjU0NS1iNzY2LThjMmEtOGVjNy1lODBjY2YyMmEzYjQiLCJ1c2VyX3NhbmRib3giOmZhbHNlLCJzY29wZXMiOlsidXNlciJdfQ.hEIw5xDCvQv5dcF_UIrJbhE6-yuYJlwx566upGoGCyE",
+            "userId": "65c0780e-9fef-11ea-86ef-025ae0ee3660",
+            "isNew": true,
+            "resultCode": 1,
+            "isEmailVerified": 1,
+            "email": "",
+            "refresh_token": "7224a861493a76b86700857d1ebaf998c6658f71832c321e"
+        },
+        "test_name": "registerFromThirdPart"
+    }
+]

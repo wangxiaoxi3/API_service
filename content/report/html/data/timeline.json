@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "xiaoxideMacBook.lan",
+    "children" : [ {
+      "name" : "6741-MainThread",
+      "children" : [ {
+        "name" : "test_registerfromthirdpart[case_data0]",
+        "uid" : "90e76208292b8b5b",
+        "parentUid" : "ea793beac19a09d4f0bb3c680637ad0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590999247287,
+          "stop" : 1590999248398,
+          "duration" : 1111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'request_type': 'POST', 'parameter_type': 'application/x-www-form-urlencoded', 'info': 'registerFromThirdPart', 'timeout': 60, 'parameter': 'registerFromThirdPart.json', 'file': False, 'test_name': 'registerFromThirdPart', 'address': '/api/registerFromThirdPart', 'check': {'expected_code': 200, 'expected_request': 'result_registerFromThirdPart.json', 'check_type': 'json'}, 'headers': {'appversion': '3.4.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0'}, 'relevance': None, 'cookies': False, 'http_type': 'https'}" ]
+      } ],
+      "uid" : "ea793beac19a09d4f0bb3c680637ad0f"
+    }, {
+      "name" : "26484-MainThread",
+      "children" : [ {
+        "name" : "test_registerfromthirdpart[case_data0]",
+        "uid" : "7a5644b324f85d27",
+        "parentUid" : "55d23626a2c55ad149d15aec94a1afd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594014671665,
+          "stop" : 1594014672562,
+          "duration" : 897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'file': False, 'check': {'check_type': 'json', 'expected_code': 200, 'expected_request': 'result_registerFromThirdPart.json'}, 'headers': {'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}, 'cookies': False, 'timeout': 60, 'parameter': 'registerFromThirdPart.json', 'parameter_type': 'application/x-www-form-urlencoded', 'test_name': 'registerFromThirdPart', 'info': 'registerFromThirdPart', 'address': '/api/registerFromThirdPart', 'request_type': 'POST', 'relevance': None, 'http_type': 'https'}" ]
+      } ],
+      "uid" : "55d23626a2c55ad149d15aec94a1afd3"
+    } ],
+    "uid" : "60d6f9ee33f21695800f326c72fb0026"
+  } ]
+}

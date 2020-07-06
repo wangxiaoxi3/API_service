@@ -1,0 +1,11 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Jun 01 16:14:07 CST 2020","Mon Jun 01 16:14:08 CST 2020","1111","crm.testcase.api","test_registerFromThirdPart","TestRegisterfromthirdpart","","","test_registerfromthirdpart[case_data0]","
+
+        :param case_data: 测试用例
+        :return:
+        "
+"passed","Mon Jul 06 13:51:11 CST 2020","Mon Jul 06 13:51:12 CST 2020","897","crm.testcase.api","test_registerFromThirdPart","TestRegisterfromthirdpart","","","test_registerfromthirdpart[case_data0]","
+
+        :param case_data: 测试用例
+        :return:
+        "

@@ -1,0 +1,16 @@
+[
+    {
+        "parameter": {
+            "deviceInfoList": [
+                "019F9E50-9561-4FFB-87F9-5FDD8A579B67",
+                "3145728000",
+                "414",
+                "736"
+            ],
+            "loginOptions": "device_login",
+            "deviceId": "bf38b545-b766-8c2a-8ec7-e80ccf22a3b4",
+            "timeZone": "Asia/Shanghai"
+        },
+        "test_name": "registerFromThirdPart"
+    }
+]

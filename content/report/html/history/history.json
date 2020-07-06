@@ -1,0 +1,41 @@
+{
+  "5d7c8a95eea77353216e45474fe0ca72" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a5644b324f85d27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594014671665,
+        "stop" : 1594014672562,
+        "duration" : 897
+      }
+    } ]
+  },
+  "c726df5b4b0e58b446c43e76a1c2c73b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90e76208292b8b5b",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.SSLError: HTTPSConnectionPool(host='service.papaya.fm', port=443): Max retries exceeded with url: /api/registerFromThirdPart (Caused by SSLError(SSLError(\"bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)\",),))",
+      "time" : {
+        "start" : 1590999247287,
+        "stop" : 1590999248398,
+        "duration" : 1111
+      }
+    } ]
+  }
+}

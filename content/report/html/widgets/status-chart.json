@@ -1,0 +1,21 @@
+[ {
+  "uid" : "90e76208292b8b5b",
+  "name" : "test_registerfromthirdpart[case_data0]",
+  "time" : {
+    "start" : 1590999247287,
+    "stop" : 1590999248398,
+    "duration" : 1111
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7a5644b324f85d27",
+  "name" : "test_registerfromthirdpart[case_data0]",
+  "time" : {
+    "start" : 1594014671665,
+    "stop" : 1594014672562,
+    "duration" : 897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

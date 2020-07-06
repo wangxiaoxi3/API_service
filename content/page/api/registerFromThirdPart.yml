@@ -1,0 +1,26 @@
+test_case:
+- file: false
+  check:
+    check_type: json
+    expected_code: 200
+    expected_request: result_registerFromThirdPart.json
+  headers:
+    user-agent: PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0
+    deviceid: bf38b545-b766-8c2a-8ec7-e80ccf22a3b4
+    appversion: 3.4.0
+  cookies: false
+  timeout: 60
+  parameter: registerFromThirdPart.json
+  parameter_type: application/x-www-form-urlencoded
+  test_name: registerFromThirdPart
+  info: registerFromThirdPart
+  address: /api/registerFromThirdPart
+  request_type: POST
+  relevance:
+  http_type: https
+test_info:
+  host: ${host}$
+  address: /api/registerFromThirdPart
+  title: api
+  id: test_registerFromThirdPart_01
+premise:
